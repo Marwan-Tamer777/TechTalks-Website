@@ -1,0 +1,136 @@
+#opinions_container{
+    position: relative;
+    background-color:#b7d5d4;
+    padding: 2.5%;
+}
+
+#opinions_container h2{
+    font-weight: 700;
+line-height: 120%;
+font-size:50px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #F6F5AE;
+}
+
+#opinions_container .spark_boom{
+    position: absolute;
+    top:8%;
+    left:24%;
+}
+
+#opinions_container >p{
+font-weight: 900;
+line-height: 160%;
+text-align: center;
+color: #4D4D4D;
+}
+
+#opinions_container .opinions{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+}
+
+#opinions_container .opinions div{
+    flex: 0 0 40%;
+    display: flex;
+    height:100%;
+    flex-direction:column;
+    justify-content: space-between;
+    padding: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+    background-color: #65B0B6;
+    border-radius: 10px;
+}
+
+#opinions_container .opinions div p:first-child{
+    font-weight: 800;
+font-size: large;
+line-height: 160%;
+width: 80%;
+margin: auto;
+color: #4F4F4F;
+vertical-align:bottom;
+text-align: center;
+}
+
+#opinions_container .opinions div p{
+    font-weight: 500;
+font-size:small;
+line-height: 160%;
+color: #77878B;
+text-align: center;
+}
+
+#opinions_container .opinions .comma_md{
+    position:absolute;
+    top:8%;
+    left:5%;
+}
+
+
+#opinions_container .opinions .opinions_avatar_container{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0%;
+}
+#opinions_container .opinions .opinions_avatar_container .avatar{
+    border-radius: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 33px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#opinions_container .opinions .opinions_avatar_container .spotify_logo{
+        margin-left: 1%;
+    margin-right: 1%;
+    width: 23px;
+}
+
+#opinions_container .arrow_left{
+    margin: 2%;
+    margin-right: 1%;
+}
+
+#opinions_container .arrow_right{
+    margin: 2%;
+    margin-left: 1%;
+}
+
+#opinions_container .spiral{
+        position: absolute;
+    bottom: -7%;
+    right: 50%;
+    z-index: 10;
+}
+
+/* .fadeOut {
+  animation-name: fadeOut;
+  animation-duration: 1.5s;
+ 
+}
+
+@keyframes fadeOut {
+
+  from {opacity: 0.2;transform: translateX(50%)}
+  to {opacity: 1;}
+} */
+
+
+/* .fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  transition:ease-out;
+}
+
+@keyframes fadeIn {
+
+  from {opacity: 0.2;transform: translateX(-50%);}
+  to {opacity: 1}
+} */

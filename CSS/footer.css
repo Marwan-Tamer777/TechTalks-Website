@@ -1,0 +1,142 @@
+#footer{
+    background-color: #488286;
+    padding: 5%;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+#footer .footer_top{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:3%;
+}
+
+#footer .footer_top .left{
+    flex: 0 0 30%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+#footer .footer_top .left .left_top{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+}
+
+#footer .footer_top .left .left_top .logo{
+
+}
+
+#footer .footer_top .left .left_top p{
+    font-style: normal;
+font-weight: 500;
+font-size: small;
+line-height: 160%;
+color: #B7D5D4;
+}
+
+#footer .footer_top .left > p{
+    font-style: normal;
+font-weight: 500;
+line-height: 160%;
+color: #B7D5D4;
+
+}
+
+#footer .footer_top .left .left_bottom{
+    display:flex;
+    flex-direction:row;
+    justify-content:start;
+    align-items: center;
+}
+
+#footer .footer_top .left .left_bottom img{
+    margin:10%;
+}
+
+#footer .footer_top .center{
+    flex: 0 0 30%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+#footer .footer_top .center a{
+    flex: 1 0 45%;
+    text-decoration: none;
+}
+#footer .footer_top .center p{
+
+    font-style: normal;
+    text-align: center;
+font-weight: 500;
+line-height: 160%;
+color: #B7D5D4;
+}
+
+#footer .footer_top .center p:hover{
+    color: #FBA29A;
+}
+
+
+#footer .footer_top .right{
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .footer_top .right >p{
+    font-weight: 500;
+line-height: 160%;
+color: #B7D5D4;
+}
+
+#footer .footer_top .right div{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+}
+
+#footer .footer_top .right div img{
+    margin:5%;
+}
+
+#footer .footer_bottom{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-top: solid 0.4px #4D4D4D;
+}
+
+#footer .footer_bottom .start{
+    display:flex;
+    flex-direction:row;
+}
+
+#footer .footer_bottom .start p{
+    font-style: normal;
+font-weight: 500;
+line-height: 160%;
+color: #F6F5AE;
+}
+
+#footer .footer_bottom .end{
+        display:flex;
+    flex-direction:row;
+}
+
+#footer .footer_bottom .end p{
+    font-weight: 500;
+    margin-right:2%;
+    margin-left:2%;
+line-height: 160%;
+color: #F6F5AE;
+}

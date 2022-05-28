@@ -1,0 +1,108 @@
+#founders{
+        background-color: #b7d5d4;
+    position:relative;
+    padding: 5%;
+}
+
+#founders h1{
+        font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+text-align: center;
+letter-spacing: -0.02em;
+color: #CF9893;
+}
+
+#founders .scribble{
+    position: absolute;
+    top: 8%;
+    right: 15%;
+}
+
+#founders .founders_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#founders .founders_list .founder_card{
+    flex: 0 0 40%;
+    position:relative;
+    display: flex;
+    flex-direction:row;
+    padding:2%;
+    margin: 2%;
+    border: 2px solid #000000;
+box-shadow: 10px 10px 0px #000000;
+border-radius: 8px;
+}
+
+
+#founders .founders_list .founder_card .founder_pic{
+    
+    border-radius: 10px;
+}
+
+#founders .founders_list .founder_card .founder_emoji{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    transform: scale(1.7); 
+}
+
+#founders .founders_list .founder_card .founder_details{
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    padding:2%;
+}
+
+
+
+#founders .founders_list .founder_card .founder_details .name{
+    font-weight: 700;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: -0.02em;
+color: #000000;
+}
+
+#founders .founders_list .founder_card .founder_details .description{
+    font-weight: 500;
+font-size: 15px;
+line-height: 160%;
+color: #4D4D4D;
+}
+
+#founders .founders_list .founder_card .founder_details .socials{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    border-top: solid 1px #4D4D4D;
+}
+
+#founders .founders_list .founder_card .founder_details .socials p{
+    font-weight: 900;
+font-size: 12px;
+line-height: 160%;
+color: #4D4D4D;
+
+}
+
+#founders .founders_list .founder_card .founder_details .socials img{
+    margin-left:2%;
+    margin-right: 2%;
+}
+
+#founders .arrow_left{
+    margin: 2%;
+    margin-right: 1%;
+}
+
+#founders .arrow_right{
+    margin: 2%;
+    margin-left: 1%;
+}
+

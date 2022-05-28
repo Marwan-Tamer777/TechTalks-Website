@@ -1,0 +1,104 @@
+/* p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+} */
+body{
+    font-family: "Montserrat Alternates";
+    margin: 0;
+    overflow-x:hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    background-color: #b7d5d4;
+    flex-direction: row;
+    align-items:center;
+}
+
+nav img{
+    width: 130px;
+    margin-left: 100px;
+}
+
+nav div{
+    position: absolute;
+    right: 40px;
+}
+
+nav button{
+    height: fit-content;
+padding: 8.22683px 16.4537px;
+background: #CF9893;
+border: none;
+box-shadow: 2.05671px 2.05671px 0px rgba(0, 0, 0, 0.25);
+border-radius: 5.48455px;
+font-weight: 700;
+line-height: 12px;
+color: #FFFFFF;
+margin-left: 10px;
+margin-right: 60px;
+}
+
+nav button:nth-of-type(odd){
+height: fit-content;
+border: 1.37114px solid #CF9893;
+padding: 8.22683px 16.4537px;
+background: transparent;
+box-shadow: 2.05671px 2.05671px 0px rgba(0, 0, 0, 0.25);
+border-radius: 5.48455px;
+font-weight: 700;
+line-height: 12px;
+color: #CF9893;
+margin-right: 10px;
+}
+
+
+nav .link{
+    text-decoration: none;
+    margin-left: 10%;
+margin-right: 10%;
+color: #CF9893;
+}
+
+nav .link p{
+    font-weight: 700;
+font-size: 10.9691px;
+text-align: center;
+line-height: 160%;
+margin:0%;
+}
+
+nav .link:hover{
+    padding: 0.5%;
+background: #CF9893;
+border: none;
+box-shadow: 2.05671px 2.05671px 0px rgba(0, 0, 0, 0.25);
+border-radius: 5.48455px;
+font-weight: 900;
+color: #FFFFFF;
+}
+
+nav .spotify_login:hover{
+background: #488286;
+border: 1.2px solid #000000;
+color: #EDF3F7;
+transition: ease-out;
+transform:translateY(-5px) scale(1.1);
+}
+
+nav .spotify_login a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.spotify-yellow{
+    margin:0;
+    margin-left: 5px;
+    width: 15px;
+    height:15px;
+}
+

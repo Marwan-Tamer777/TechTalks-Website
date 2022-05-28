@@ -1,0 +1,66 @@
+#our_sponsors{
+    background-color: #65B0B6;
+    position:relative;
+    padding: 5%;
+}
+
+#our_sponsors h1{
+        font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+text-align: center;
+letter-spacing: -0.02em;
+color: #F6F5AE;
+}
+
+#our_sponsors > p{
+    font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 160%;
+text-align: center;
+color: #77878B;
+}
+#our_sponsors .spark_boom{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+}
+
+#our_sponsors .sponsors_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#our_sponsors .sponsors_list .sponsor_card{
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding:1%;
+    background: #B7D5D4;
+border: 1.6px solid #000000;
+border-radius: 12px;
+}
+
+#our_sponsors .sponsors_list .sponsor_card img{
+
+}
+
+#our_sponsors .sponsors_list .sponsor_card .sponsor_details{
+font-style: normal;
+width: 80%;
+padding:2%;
+border-top: solid 1.6px #4D4D4D;
+margin-right: auto;
+margin-left: auto;
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+text-align: center;
+color: #4D4D4D;
+}
+

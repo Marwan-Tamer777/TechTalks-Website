@@ -1,0 +1,88 @@
+#header{
+    background-color: #b7d5d4;
+    position:relative;
+    padding: 5%;
+}
+
+#header h1:nth-of-type(odd){
+    color: #77878B;
+    padding-top: 20px;
+}
+
+#header h1{
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #f6f5ae;
+    font-size: 65.8146px;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+#header > p{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+font-weight: 500;
+line-height: 160%;
+
+text-align: center;
+
+color: #CF9893;
+}
+
+#header .hero_swirl_img{
+    position: absolute;
+    left: -5px;
+    top:-50px;
+}
+
+#header .sparks_group_img{
+    position: absolute;
+    right:0;
+    top:100px;
+}
+
+#header .logisitcs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header .logisitcs .logistic_card{
+    flex: 0 0 25%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: #F6F5AE;
+border: 1.5px solid #77878B;
+box-shadow: 6px 6px 0px #CD4631;
+border-radius: 8px;
+}
+
+#header .logisitcs .logistic_card .top_text{
+    font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+letter-spacing: -0.02em;
+color: #CF9893;
+margin-bottom: 1%;
+}
+
+#header .logisitcs .logistic_card .top_text span{
+    font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+letter-spacing: -0.02em;
+color: #77878b;
+}
+
+#header .logisitcs .logistic_card .bottom_text{
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+color: #4D4D4D;
+margin-top: 1%;
+margin-bottom: 10%;
+}

@@ -1,0 +1,20 @@
+.moveLeft {
+    animation-name:moveLeft;
+  animation-duration: 1s;
+  transition:ease-out;
+}
+
+.moveRight {
+    animation-name:moveRight;
+  animation-duration: 1s;
+  transition:ease-out;
+}
+
+@keyframes moveLeft {
+
+  from {transform: translateX(100%)}
+}
+@keyframes moveRight {
+
+  from {transform: translateX(-100%);}
+}

@@ -1,0 +1,67 @@
+#history{
+    background-color: #b7d5d4;
+    position:relative;
+    padding: 5%;
+}
+
+#history h1{
+    font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+text-align: center;
+letter-spacing: -0.02em;
+color: #CF9893;
+}
+
+#history > p{
+    font-weight: 500;
+font-size: 23px;
+line-height: 160%;
+text-align: center;
+color: #77878B;
+}
+
+#history .main_img{
+    margin:auto;
+    border-radius: 80px;
+}
+
+#history h2{
+    font-weight: 700;
+font-size: 40x;
+line-height: 140%;
+letter-spacing: -0.02em;
+text-align: center;
+color: #F6F5AE;
+}
+
+#history .sparkle_left{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+#history .history_speeches{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-bottom: 3%;
+    border-bottom: solid 1px #4D4D4D;
+}
+
+#history .history_speeches p{
+    flex:0 0 45%;
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+color: #4D4D4D;
+}
+
+#history .history_speeches p span{
+    font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+color: #4D4D4D;
+}

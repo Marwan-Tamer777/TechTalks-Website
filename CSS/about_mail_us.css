@@ -1,0 +1,115 @@
+#mail_us{
+    background-color: #b7d5d4;
+    position:relative;
+    padding: 5%;
+}
+
+#mail_us h1{
+        font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+text-align: center;
+letter-spacing: -0.02em;
+color: #CF9893;
+}
+
+#mail_us > p{
+    font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 160%;
+text-align: center;
+color: #77878B;
+}
+
+#mail_us .scribble{
+    position: absolute;
+    top: 10%;
+    right: 35%;
+}
+
+#mail_us .sparks{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+}
+
+#mail_us .spiral{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+#mail_us .inputs{
+    display: flex;
+    width: 75%;
+    margin-right:auto;
+    margin-left:auto;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    border-top: 1px solid #4d4d4d;
+}
+
+#mail_us .inputs .input{
+    flex: 0 0 45%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+
+#mail_us .inputs .input p{
+font-weight: 700;
+font-size: 14px;
+line-height: 160%;
+color: #77878B;
+}
+
+#mail_us .inputs .input p span{
+    color: red;
+}
+
+#mail_us .inputs .input input,#mail_us .inputs .input .message_input{
+    font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+color: #CF9893;
+text-align: start;
+background: #B7D5D4;
+border: 1.5px solid #77878B;
+border-radius: 8px;
+padding:3%;
+}
+
+#mail_us .inputs .input input::placeholder,#mail_us .inputs .input .message_input::placeholder{
+        font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+color: #CF9893;
+}
+
+#mail_us .inputs .input input:focus,#mail_us .inputs .input .message_input:focus{
+outline: none !important;
+border: 1.5px solid #CD4631;
+color: #F6F5AE;
+}
+
+#mail_us .inputs .input .message_input{
+    width: 150%;
+    height:20vh;
+}
+
+#mail_us button{
+        padding:2%;
+    color: #FFFFFF;
+    background-color: #CF9893;
+    font-weight: 700;
+border: 2px solid #CF9893;
+box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 40%;
+}
