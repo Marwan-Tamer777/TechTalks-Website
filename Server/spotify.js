@@ -18,7 +18,6 @@ var client_id = process.env.client_id; // Your client id
 var client_secret = process.env.client_secret; // Your secret
 var redirect_uri = "http://localhost:8888/callback"; // Your redirect uri
 
-console.log("AFAF",process.env.port,client_id,client_secret)
 /**
  * Generates a random string containing numbers and letters
  * @param  {number} length The length of the string
